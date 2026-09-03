@@ -1,0 +1,13 @@
+# Swift
+.build/
+DerivedData/
+
+# App bundles and packaging
+build/
+*.dmg
+
+# macOS
+.DS_Store
+
+# Local configuration
+.env

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
+  <title id="title">DisplayVolumeKeys</title>
+  <desc id="desc">A keyboard volume key connected to a monitor volume bar.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.5" stop-color="#172554"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="60"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity=".4"/></filter>
+  </defs>
+
+  <rect width="1280" height="560" rx="32" fill="url(#canvas)"/>
+  <circle cx="1120" cy="30" r="220" fill="#38bdf8" opacity=".16" filter="url(#glow)"/>
+  <circle cx="110" cy="540" r="210" fill="#2563eb" opacity=".2" filter="url(#glow)"/>
+
+  <g transform="translate(82 108)" filter="url(#shadow)">
+    <rect width="330" height="260" rx="34" fill="#f8fafc" fill-opacity=".96"/>
+    <rect x="34" y="34" width="262" height="192" rx="22" fill="#e2e8f0"/>
+    <g fill="#94a3b8">
+      <rect x="55" y="58" width="48" height="42" rx="10"/>
+      <rect x="115" y="58" width="48" height="42" rx="10"/>
+      <rect x="175" y="58" width="48" height="42" rx="10"/>
+      <rect x="235" y="58" width="40" height="42" rx="10"/>
+      <rect x="55" y="112" width="48" height="42" rx="10"/>
+      <rect x="115" y="112" width="48" height="42" rx="10"/>
+      <rect x="175" y="112" width="100" height="42" rx="10"/>
+    </g>
+    <g transform="translate(55 166)">
+      <rect width="220" height="42" rx="12" fill="url(#accent)"/>
+      <path d="M24 14h7l8-7v28l-8-7h-7Z" fill="#fff"/>
+      <path d="M44 14c5 4 5 10 0 14m6-20c11 9 11 19 0 28" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      <path d="M78 21h116" stroke="#dbeafe" stroke-width="4" stroke-linecap="round"/>
+      <path d="M78 21h72" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="150" cy="21" r="7" fill="#fff"/>
+    </g>
+  </g>
+
+  <path d="M447 238h88" stroke="#7dd3fc" stroke-width="5" stroke-linecap="round"/>
+  <path d="m521 222 20 16-20 16" fill="none" stroke="#7dd3fc" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(578 90)">
+    <text x="0" y="82" fill="#fff" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" font-size="67" font-weight="800" letter-spacing="-3">DisplayVolumeKeys</text>
+    <text x="2" y="135" fill="#bae6fd" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" font-size="24" font-weight="700">KEYBOARD CONTROL FOR EXTERNAL DISPLAY AUDIO</text>
+    <text x="2" y="188" fill="#e2e8f0" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" font-size="22">Media keys in. DDC/CI volume out.</text>
+
+    <g transform="translate(2 236)" font-family="ui-monospace,SFMono-Regular,monospace" font-size="17" font-weight="700">
+      <rect width="176" height="48" rx="24" fill="#172554" stroke="#60a5fa"/>
+      <text x="88" y="30" fill="#dbeafe" text-anchor="middle">MEDIA KEYS</text>
+      <path d="M194 24h34" stroke="#60a5fa" stroke-width="3"/>
+      <path d="m220 16 10 8-10 8" fill="none" stroke="#60a5fa" stroke-width="3"/>
+      <g transform="translate(244)">
+        <rect width="150" height="48" rx="24" fill="#172554" stroke="#60a5fa"/>
+        <text x="75" y="30" fill="#dbeafe" text-anchor="middle">DDC/CI</text>
+      </g>
+      <path d="M412 24h34" stroke="#60a5fa" stroke-width="3"/>
+      <path d="m438 16 10 8-10 8" fill="none" stroke="#60a5fa" stroke-width="3"/>
+      <g transform="translate(462)">
+        <rect width="166" height="48" rx="24" fill="#172554" stroke="#60a5fa"/>
+        <text x="83" y="30" fill="#dbeafe" text-anchor="middle">DISPLAY AUDIO</text>
+      </g>
+    </g>
+
+    <text x="2" y="350" fill="#bfdbfe" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" font-size="18">Focused · lightweight · open source</text>
+  </g>
+</svg>
